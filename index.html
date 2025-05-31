@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Портфолио студента</title>
+</head>
+
+<body>
+
+    <header class="promo">
+
+        <h1 class="promo__title">Портфолио студента</h1>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="https://education.yandex.ru/kids/">Обо мне</a>
+                </li>
+
+                <li>
+                    <a href="">Навыки</a>
+                </li>
+
+                <li>
+                    <a href="">Проекты</a>
+                </li>
+
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section class="about">
+
+        <h2 class="about__title">Обо мне</h2>
+        <p class="about__text">Привет! Меня зовут <strong>Иван Иванов</strong>, и я начинающий веб-разработчик. Мне
+            нравится создавать красивые и удобные сайты.
+        </p>
+
+        <img class="about__image" src="student.jpg" alt="">
+    </section>
+
+
+    <section class="skills">
+        <h2 class="skills__title">Мои навыки</h2>
+
+        <ul class="skills__items">
+            <li>
+                <a href="">Roblox Studio</a>
+            </li>
+            <li>
+                <a href="">Lua</a>
+            </li>
+            <li>
+                <a href="">HTML5</a>
+            </li>
+
+        </ul>
+         <ul class="skills__items">
+            <li>
+                <a href="">CSS3</a>
+            </li>
+            <li>
+                <a href="">JavaScript</a>
+            </li>
+            <li>
+                <a href="">Git и GitHub</a>
+            </li>
+            <li>
+                <a href="">Flexbox & Grid</a>
+            </li>
+        </ul>
+    
+    </section>
+
+    <section class="project">
+        <h2 class="project_title">Мои проекты</h2>
+
+
+        <div class="project-container">
+            <div class="project__card">
+                <h3>Сайт-визитка</h3>
+                <p class="project__text">Красивый сайт с адаптивным дизайном.</p>
+                <a class="project__btn">Посмотреть</a>
+            </div>
+            <div class="project__card project__card_2">
+                <h3>To-Do List</h3>
+                <p class="project__text">Интерактивный список задач на JavaScript.</p>
+                <a class="project__btn">Посмотреть</a>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="contact">
+        <h2>Свяжитесь со мной</h2>
+
+        <form action="#">
+            <label for="" class="contact__title">Имя:</label>
+            <input type="text" name="name">
+            <label for="" class="contact__title">Email:</label>
+            <input type="text" name="email">
+            <label for="" class="contact__title">Сообщение:</label>
+            <textarea name="message" id="#"></textarea>
+            <button class ="button_send_form">Отправить</button>
+        </form>
+
+    </section>
+
+    <div>© 2025 Иван Иванов. Все права защищены.</div>
+</body>
+
+</html>
